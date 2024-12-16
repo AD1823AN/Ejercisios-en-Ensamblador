@@ -11,7 +11,6 @@ max  db 00
 campo db 20 dup(' ')   
 .code
 inicio:
-
 mov ax,@data
 mov ds,ax 
 push ds
