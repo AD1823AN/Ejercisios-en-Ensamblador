@@ -16,7 +16,6 @@ mov ds,ax
 push ds
 pop es
 
-
 mov ah,09h
 lea dx,mens
 int 21h 
