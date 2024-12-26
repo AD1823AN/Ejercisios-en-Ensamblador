@@ -3,6 +3,7 @@
 .data
 CR equ 13
 LF equ 10  
+
 mens db ' Escribe lo que quieras y te lo pongo al reves', CR,LF,'s'
 
 salto db CR,LF, '$'
