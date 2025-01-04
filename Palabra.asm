@@ -10,6 +10,7 @@ LF equ 10
 
 mens db ' Escribe lo que quieras y te lo pongo al reves', CR,LF,'s'
 salto db CR,LF, '$'
+
 cadena label byte
 cant db 20
 max  db 00 
