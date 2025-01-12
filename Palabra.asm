@@ -15,6 +15,7 @@ salto db CR,LF, '$'
 cadena label byte
 
 cant db 20
+
 max  db 00 
 campo db 20 dup(' ')   
 .code
