@@ -1,7 +1,6 @@
 .model small
 .stack  256h
 .data
-
 CR equ 13
 
 LF equ 10  
