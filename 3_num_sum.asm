@@ -1,3 +1,5 @@
+; Adriana Trejo Patricio 
+
 .model small
 .stack
 .data
@@ -5,7 +7,7 @@ u db 0
 d db 0
 n db 0
 t db 0
-max db 0   ; Variable para almacenar el número mayor
+max db 0   ; Variable para almacenar el nÃºmero mayor
 
 msg db 10,13,"!! Ingrese un numero de 3 digitos !!$"
 msg1 db 10,13,"!! Numero ingresado: !!$"
@@ -21,31 +23,31 @@ mov ah, 09h
 lea dx, msg
 int 21h
 
-; Primer dígito
+; Primer dÃ­gito
 mov ah, 01h
 int 21h
 sub al, 30h
 mov d, al
 
-; Segundo dígito
+; Segundo dÃ­gito
 mov ah, 01h
 int 21h
 sub al, 30h
 mov u, al
 
-; Tercer dígito
+; Tercer dÃ­gito
 mov ah, 01h
 int 21h
 sub al, 30h
 mov n, al
 
-; Sumar los dígitos
+; Sumar los dÃ­gitos
 mov al, d
 add al, u
 add al, n
 mov t, al
 
-; Mostrar el número ingresado
+; Mostrar el nÃºmero ingresado
 mov ah, 09h
 lea dx, msg1
 int 21h 
@@ -83,7 +85,7 @@ mov dl, bl
 add dl, 30h
 int 21h
 
-; Encontrar el número mayor
+; Encontrar el nÃºmero mayor
 mov al, d
 cmp u, al
 jg mayor_u
@@ -95,7 +97,7 @@ mov al, n
 mayor_n:
 mov max, al
 
-; Mostrar el número mayor
+; Mostrar el nÃºmero mayor
 mov ah, 09h
 lea dx, msg3
 int 21h
