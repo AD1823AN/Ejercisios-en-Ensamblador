@@ -1,4 +1,5 @@
 ; Adriana Trejo Patricio 
+; Ingeniería 
 .MODEL SMALL
 .STACK
 .DATA
