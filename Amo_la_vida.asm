@@ -1,4 +1,4 @@
-; Adriana
+; Adriana Trejo 
 .MODEL SMALL
 .STACK
 .DATA
