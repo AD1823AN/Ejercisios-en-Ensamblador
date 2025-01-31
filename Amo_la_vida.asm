@@ -1,5 +1,5 @@
 ; Adriana Trejo Patricio 
-; Ingeniería Sistemas 
+; Ingeniería Sistemas Computacionales 
 .MODEL SMALL
 .STACK
 .DATA
