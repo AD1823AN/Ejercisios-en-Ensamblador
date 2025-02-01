@@ -1,6 +1,6 @@
 ; Autor: Adriana Trejo Patricio 
 ;Matrícula: 202123172
-; carrera:
+; carrera: Ingeniería en sistemas computacionales 
 org 100h     ; Punto de entrada del programa
 
 mov ah, 01    ; Función 01h de DOS: Leer un carácter desde la entrada estándar (teclado)
