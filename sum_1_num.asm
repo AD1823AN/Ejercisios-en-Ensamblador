@@ -1,4 +1,4 @@
-; Autor: Adriana Trejo 
+; Autor: Adriana Trejo Patricio 
 ;Matrícula 
 org 100h     ; Punto de entrada del programa
 
