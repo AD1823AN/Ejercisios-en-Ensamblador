@@ -1,4 +1,4 @@
-;Autor:
+;Autor:Adriana Trejo Patricio 
 ;Matrícula:
 .model small
 .stack  256h
