@@ -1,6 +1,6 @@
 ;Autor:Adriana Trejo Patricio 
 ;Matrícula:202123172
-;
+;Carrera
 .model small
 .stack  256h
 .data
