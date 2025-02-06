@@ -3,6 +3,7 @@
 ;Carrera:Ingenieria en Sistemas Computacionales
 
 .model small
+
 .stack  256h
 .data
 CR equ 13
