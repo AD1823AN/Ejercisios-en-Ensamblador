@@ -13,7 +13,6 @@ msg db 10,13,"!! Ingrese un numero de 3 digitos !!$"
 msg1 db 10,13,"!! Numero ingresado: !!$"
 msg2 db 10,13,"!! La suma de los numeros es: !!$"
 msg3 db 10,13,"!! El mayor de los digitos es: !!$"
-
 .code
 mov ax, @data
 mov ds, ax
