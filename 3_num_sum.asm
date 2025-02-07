@@ -16,7 +16,6 @@ msg3 db 10,13,"!! El mayor de los digitos es: !!$"
 .code
 mov ax, @data
 mov ds, ax
-
 mov ah, 09h
 lea dx, msg
 int 21h
