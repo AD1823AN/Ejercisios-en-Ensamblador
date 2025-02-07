@@ -8,7 +8,7 @@ u db 0
 d db 0
 n db 0
 t db 0
-max db 0   ; Variable para almacenar el número mayor
+max db 0  ; Variable para almacenar el número mayor
 
 msg db 10,13,"!! Ingrese un numero de 3 digitos !!$"
 msg1 db 10,13,"!! Numero ingresado: !!$"
