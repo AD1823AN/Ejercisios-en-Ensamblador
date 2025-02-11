@@ -11,6 +11,7 @@
     v2 db ? ; se almacena el segundo número
 
     resultado db ? ; se almacena el resultado
+
     msg1 db 'RESULTADO: $'
 
 .code
