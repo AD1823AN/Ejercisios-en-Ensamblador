@@ -1,9 +1,10 @@
 .model small
+
 .data
     mensaje1 db "INTRODUCE NUMERO 1: $"
     mensaje2 db "INTRODUCE NUMERO 2: $"
-    v1 db ? ; se almacena el primer número
-    v2 db ? ; se almacena el segundo número
+    v1 db ? ; se almacena el primer nÃºmero
+    v2 db ? ; se almacena el segundo nÃºmero
     resultado db ? ; se almacena el resultado
     msg1 db 'RESULTADO: $'
 
@@ -15,21 +16,21 @@
     lea dx, mensaje1
     int 21h
 
-    mov ah, 01h ; Leer el primer número
+    mov ah, 01h ; Leer el primer nÃºmero
     int 21h
-    sub al, 30h ; Convertir de carácter a número
-    mov v1, al ; Almacenar el primer número
+    sub al, 30h ; Convertir de carÃ¡cter a nÃºmero
+    mov v1, al ; Almacenar el primer nÃºmero
 
     mov ah, 09h ; Imprimir mensaje2
     lea dx, mensaje2
     int 21h
 
-    mov ah, 01h ; Leer el segundo número
+    mov ah, 01h ; Leer el segundo nÃºmero
     int 21h
-    sub al, 30h ; Convertir de carácter a número
-    mov v2, al ; Almacenar el segundo número
+    sub al, 30h ; Convertir de carÃ¡cter a nÃºmero
+    mov v2, al ; Almacenar el segundo nÃºmero
 
-    ; Sumar los números
+    ; Sumar los nÃºmeros
     mov al, v1
     add al, v2
     mov resultado, al
@@ -40,8 +41,8 @@
 
     ; Mostrar el resultado
     mov dl, resultado
-    add dl, 30h ; Convertir de número a carácter
-    mov ah, 02h ; Función de DOS para imprimir un carácter
+    add dl, 30h ; Convertir de nÃºmero a carÃ¡cter
+    mov ah, 02h ; FunciÃ³n de DOS para imprimir un carÃ¡cter
     int 21h
 
     mov ax, 4c00h
