@@ -15,6 +15,7 @@
     msg1 db 'RESULTADO: $'
 
 .code
+
     mov ax, @data
     mov ds, ax
 
