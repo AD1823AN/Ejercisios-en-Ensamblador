@@ -1,6 +1,7 @@
 .model small
 
 .data
+
     mensaje1 db "INTRODUCE NUMERO 1: $"
     mensaje2 db "INTRODUCE NUMERO 2: $"
     v1 db ? ; se almacena el primer número
