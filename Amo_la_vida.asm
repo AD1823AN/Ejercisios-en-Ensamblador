@@ -14,7 +14,6 @@ mov ah,9
 lea dx, MSG
 int 21h
 loop inicio:
-
 salir:
 .exit
    end
