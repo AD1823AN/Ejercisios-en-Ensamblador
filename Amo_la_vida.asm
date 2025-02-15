@@ -9,7 +9,6 @@ mov ax,@data
 mov ds, ax
 ;imprimir 
 mov cx,10 
-
 inicio:
 
 mov ah,9
