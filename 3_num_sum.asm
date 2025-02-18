@@ -14,7 +14,6 @@ msg2 db 10,13,"!! La suma de los numeros es: !!$"
 msg3 db 10,13,"!! El mayor de los digitos es: !!$"
 .code
 mov ax, @data
-
 mov ds, ax
 
 mov ah, 09h
