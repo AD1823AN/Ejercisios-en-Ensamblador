@@ -15,6 +15,7 @@ MSG DB 10,13, 'AMO LA VIDA$'
 mov ax,@data
 
 mov ds, ax
+
 ;imprimir 
 mov cx,10 
 inicio:
