@@ -3,7 +3,6 @@
 ; Ingeniería Sistemas Computacionales 
 
 .MODEL SMALL
-
 .STACK
 .DATA
 MSG DB 10,13, 'AMO LA VIDA$'
