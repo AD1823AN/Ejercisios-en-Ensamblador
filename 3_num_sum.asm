@@ -6,7 +6,6 @@
 u db 0
 d db 0
 n db 0
-
 t db 0
 
 max db 0  ; Variable para almacenar el número mayor
