@@ -3,6 +3,7 @@
 ; Ingeniería en Sistemas 
 
 .model small
+
 .stack
 .data
 u db 0
